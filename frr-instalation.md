@@ -28,13 +28,13 @@ log file /var/log/frr.log
 !
 c t
 router ospf
-interface enp0s3
-ip address 10.0.12.0
+interface enp0sX
+ip address 10.0.X.0/24
 !
 router ospf
- network 10.0.0.0/24 area 0
+ network 10.0.X.0/24 area 0
 !
-line vty
+end
 !
 ```
 4. Habilitar e iniciar
