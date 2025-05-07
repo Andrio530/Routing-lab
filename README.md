@@ -17,10 +17,7 @@
 
 ## 🔍 Visão Geral / Lab Overview
 
-Ambiente de laboratório voltado à prática de roteamento em Linux com múltiplos cenários reais, configurando NAT, PBR, e OSPF com ferramentas amplamente usadas na indústria.
-
-A lab environment to practice Linux-based routing using real-world scenarios, configuring NAT, policy routing (PBR), and dynamic OSPF routing with market-relevant tools.
-
+Ambiente de laboratório voltado à prática de roteamento em Linux com múltiplos cenários reais, configurando OSPF e RIP.
 ---
 
 ## 📁 Estrutura do Projeto / Project Structure
