@@ -4,9 +4,9 @@ Neste cenário, usamos quatros servidores Ubuntu com FRRouting configurado para 
 
 ---
 
-## 🧱 Topologia ASCII
+## 🧱 Topologia da Rede
 
-[ LAN A ]—[ Ubuntu R1 ]←→ OSPF ←→[ Ubuntu R2 ]—[ LAN B ] 192.168.10.0/24 10.0.0.1 10.0.0.2 192.168.20.0/24
+![Topologia](images/minha-imagem.png)
 
 ---
 
