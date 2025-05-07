@@ -100,10 +100,10 @@ vtysh -c "show ip ospf neighbor"
 vtysh -c "show ip route ospf"
 ```
 
-## ▶️ Execução via script
-Utilize o script frr_startup.sh após instalar o FRR:
+## ▶️ Reinicialização do FRR
+Reinicialize cada roteador posteriormente configuração:
 ```bash
-sudo bash frr_startup.sh
+systemctl restart frr
 ```
 ---
 
