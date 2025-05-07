@@ -35,7 +35,7 @@ Ambiente de laboratório voltado à prática de roteamento em Linux com múltipl
 
 ### ⚙️ Instalações e Configuração / Installations & Setup
 
-- [📥 Instalação do FRRouting (FRR)](./docs/frr_installation.md)
+- [📥 Instalação do FRRouting (FRR)](./frr-instalation.md)
 - [🔧 Instalação de Ferramentas de Diagnóstico](./docs/tools_installation.md)
 - [🧷 Configuração de IP Estático com Netplan](./docs/netplan_basics.md)
 - [🧱 Topologias ASCII](./docs/ascii_topologies.md)
