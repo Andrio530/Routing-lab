@@ -13,7 +13,7 @@ Neste cenário, usamos quatros servidores Ubuntu com FRRouting configurado para 
 ## 🎯 Objetivo
 
 - Instalar e habilitar o FRRouting (FRR)
-- Configurar o daemon `ospfd` nos dois roteadores
+- Configurar o daemon `ospfd` nos quatros roteadores
 - Anunciar redes locais via OSPF
 - Verificar aprendizado dinâmico de rotas
 
