@@ -6,7 +6,7 @@ Neste cenário, usamos quatros servidores Ubuntu com FRRouting configurado para 
 
 ## 🧱 Topologia da Rede
 
-![Topologia](images/minha-imagem.png)
+![Topologia](./Topologia.png)
 
 ---
 
