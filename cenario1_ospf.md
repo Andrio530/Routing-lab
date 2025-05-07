@@ -1,8 +1,6 @@
-# 📡 Cenário 04 – Roteamento Dinâmico com OSPF / Dynamic Routing with FRR + OSPF
+# 📡 Cenário 01 – Roteamento Dinâmico com OSPF / Dynamic Routing with FRR + OSPF
 
-Neste cenário, usamos dois servidores Ubuntu com FRRouting configurado para OSPF, compartilhando automaticamente rotas entre redes locais.
-
-In this scenario, two Ubuntu servers use FRRouting with OSPF to automatically share and synchronize routes between their local networks.
+Neste cenário, usamos quatros servidores Ubuntu com FRRouting configurado para OSPF, compartilhando automaticamente rotas entre redes locais.
 
 ---
 
