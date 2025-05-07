@@ -7,13 +7,13 @@
 
 ```bash
 sudo apt update
-sudo apt install -y frr frr-pythontools
+sudo apt install frr frr-pythontools
 ```
 2. Ativar os daemons
 
 Edite /etc/frr/daemons:
 ```bash
-zebra=yes
+rip=yes
 ospfd=yes
 ```
 3. Criar arquivo de configuração inicial
