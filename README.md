@@ -5,10 +5,9 @@
 
 <p align="center">
   <a href="https://ubuntu.com/server"><img src="https://img.shields.io/badge/Linux-Ubuntu--Server-2c3e50?style=for-the-badge&logo=ubuntu&logoColor=white"/></a>
-  <a href="https://man7.org/linux/man-pages/man8/ip.8.html"><img src="https://img.shields.io/badge/iproute2-Routing-blue?style=for-the-badge"/></a>
   <a href="https://netfilter.org/"><img src="https://img.shields.io/badge/iptables-NAT%20%26%20Firewall-red?style=for-the-badge"/></a>
   <a href="https://www.frrouting.org/"><img src="https://img.shields.io/badge/FRRouting-OSPF%2FBGP-green?style=for-the-badge"/></a>
-  <a href="https://gns3.com/"><img src="https://img.shields.io/badge/GNS3-Network%20Emulator-orange?style=for-the-badge"/></a>
+  <a href="https://www.virtualbox.org/"><img src="https://img.shields.io/badge/VirtualBox-Network%20Emulator-orange?style=for-the-badge"/></a>
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/Status-100%25%20Completed-brightgreen?style=for-the-badge&logo=github" alt="Project Status Badge"/>
