@@ -20,12 +20,16 @@ ospfd=yes
 
 Crie /etc/frr/frr.conf com:
 ```
+sudo vtysh
 frr version 8.4
 frr defaults traditional
 hostname router
 log file /var/log/frr.log
 !
+c t
+router ospf
 interface enp0s3
+ip address 10.0.12.0
 !
 router ospf
  network 10.0.0.0/24 area 0
