@@ -16,7 +16,11 @@ Edite /etc/frr/daemons:
 rip=yes
 ospfd=yes
 ```
-3. Criar arquivo de configuração inicial
+3. Criar arquivo de configuração inicial para toda as interfaces
+   Use o comando ip a para descobrir as interfaces ativas:
+```bash
+ip a
+```
 
 Crie /etc/frr/frr.conf com:
 ```
