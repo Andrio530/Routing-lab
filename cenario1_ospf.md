@@ -113,7 +113,8 @@ systemctl restart frr
 ```
 ---
 
-📘 Testar Conexão
+## ▶️ Métricas de desempenho
+#📘 Testar Conexão
 Utilize o ping para verificar se há comunicação:
 ```bash
 ping 10.0.X.X
