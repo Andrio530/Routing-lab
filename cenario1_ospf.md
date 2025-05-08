@@ -148,3 +148,11 @@ traceroute 10.0.X.X
 ---
 O comando retorna os hops e o delay.
 
+## ▶️ Quantidade de pacotes e bytes
+Verificar a quantidade de pacotes e o tamanho por interface:
+```bash
+ip -s link
+```
+---
+
+
