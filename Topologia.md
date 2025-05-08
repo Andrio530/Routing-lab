@@ -15,4 +15,7 @@ Essa estrutura possibilita a análise de rotas alternativas e reconvergência em
 
 ## 📷 Topologia Visual
 
-![Topologia da Rede](./topologia.svg)
+<p align="center">
+  <img src="./topologia.svg" alt="Topologia da Rede" width="600"/>
+</p>
+
