@@ -6,8 +6,7 @@ Neste cenário, usamos quatros servidores Ubuntu com FRRouting configurado para 
 
 ## 🧱 Topologia da Rede
 
-![Topologia](Topologia.png)
-
+A topologia segue conforme a que descrita dentro do **readme.md**.
 ---
 
 ## 🎯 Objetivo
