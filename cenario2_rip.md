@@ -1,44 +1,33 @@
 # Cenário 2 – RIP com FRR Routing
 
-# ------------------------------------------
-# 🎯 OBJETIVO
-# ------------------------------------------
-# Implementar e analisar o protocolo RIP com FRRouting (FRR)
-# em uma topologia com múltiplos caminhos, testando reconvergência,
-# tabelas de roteamento, pacotes de atualização e comportamento em falhas.
+## 🧱 Topologia da Rede
 
-# ------------------------------------------
-# 🗺️ TOPOLOGIA DA REDE
-# ------------------------------------------
-# A topologia é composta por quatro roteadores:
-# R1 <-> R2 = 10.0.12.0/24
-# R2 <-> R3 = 10.0.23.0/24
-# R1 <-> R4 = 10.0.14.0/24
-# R2 <-> R4 = 10.0.24.0/24
+A topologia segue conforme a que descrita dentro do `README.md`.
+---
 
-# Estrutura com caminhos redundantes para teste de failover.
+## 🎯 Objetivo
+- Implementar e analisar o protocolo RIP com FRRouting (FRR)
+- em uma topologia com múltiplos caminhos, testando reconvergência,
+- tabelas de roteamento, pacotes de atualização e comportamento em falhas.
+---
 
-# ------------------------------------------
-# 📷 TOPOLOGIA VISUAL
-# ------------------------------------------
-# (coloque no repositório o arquivo topologia.png e referencie assim no markdown)
-# ![Topologia da Rede](./topologia.png)
+# ⚙️ Configuração do FRR - RIP
 
-# ------------------------------------------
-# ⚙️ CONFIGURAÇÃO DO FRR - RIP
-# ------------------------------------------
-
-# Etapa 1: Habilitar o daemon RIP no arquivo /etc/frr/daemons
-# ripd=yes
+---
+# Etapa 1: Habilitar o daemon RIP no arquivo `/etc/frr/daemons` 
+```bash
 sudo nano /etc/frr/daemons
+```
 # Altere: ripd=no → ripd=yes
 
 # Reinicie o serviço do FRR
+```bash
 sudo systemctl restart frr
-
+```
 # Etapa 2: Configuração dos roteadores no VTYSH
 
 # ---------- 🖥️ R1 ----------
+```bash
 vtysh
 configure terminal
 hostname R1
@@ -54,8 +43,10 @@ router rip
 exit
 write
 exit
+```
 
 # ---------- 🖥️ R2 ----------
+```bash
 vtysh
 configure terminal
 hostname R2
@@ -75,8 +66,9 @@ router rip
 exit
 write
 exit
-
+```
 # ---------- 🖥️ R3 ----------
+```bash
 vtysh
 configure terminal
 hostname R3
@@ -88,8 +80,9 @@ router rip
 exit
 write
 exit
-
+```
 # ---------- 🖥️ R4 ----------
+```bash
 vtysh
 configure terminal
 hostname R4
@@ -105,48 +98,48 @@ router rip
 exit
 write
 exit
-
-# ------------------------------------------
-# 📊 MÉTRICAS PARA AVALIAÇÃO
-# ------------------------------------------
+```
+---
+# 📊 Métricas para avaliação
+---
 
 # ➤ Ver tabela de roteamento:
+```bash
 vtysh -c 'show ip route'
+```
 
 # ➤ Monitorar pacotes de atualização RIP:
+```bash
 vtysh
 debug rip events
 debug rip packet
+```
 
 # ➤ Delay / reconvergência:
 # Desligue interface para simular falha e veja a reação do RIP:
+```bash
 sudo ip link set dev enp0s3 down
 ping 10.0.23.2
 traceroute 10.0.23.2
+```
 
 # ➤ Ver taxa de transmissão por interface (sem instalar nada):
+```bash
 ip -s link show enp0s3
+```
 
-# ------------------------------------------
-# 🧪 TESTES REALIZADOS
-# ------------------------------------------
+---
+# 🧪 Testes realizados
+---
 # - Interface entre R1 e R2 foi desligada
 # - Reconvergência foi observada pelo novo caminho via R4
 # - Tempo de resposta medido com ping e traceroute
 # - Pacotes RIP observados com debug
 
 # ------------------------------------------
-# 📁 ESTRUTURA DO REPOSITÓRIO
+# 📁 Estrutura do repoistório
 # ------------------------------------------
 # Routing-lab/
 # ├── cenario1_ospf.md
 # ├── cenario2_rip.md  ← (este arquivo)
 # └── topologia.png
-
-# ------------------------------------------
-# ✅ CONCLUSÃO
-# ------------------------------------------
-# RIP funcionou corretamente com múltiplos caminhos e reconvergência,
-# porém apresentou maior delay e instabilidade em comparação ao OSPF,
-# destacando suas limitações em redes maiores. Ideal para fins acadêmicos
-# e redes pequenas.
