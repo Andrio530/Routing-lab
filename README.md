@@ -62,3 +62,7 @@ Ambiente de laboratório voltado à prática de roteamento em Linux com múltipl
 <p align="center">
 Desenvolvido e documentado por <a href="https://github.com/Andrio530"><strong>@Andrio530</strong></a><br/>
 </p>
+
+**Observação:**  
+Este guia facilita a replicação do laboratório de roteamento em VirtualBox, tornando o repositório mais completo e reaproveitável para aulas e testes práticos.
+::contentReference[oaicite:16]{index=16}
