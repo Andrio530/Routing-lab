@@ -159,7 +159,12 @@ ip -s link
 - Reconvergência foi observada pelo novo caminho via R4
 - Tempo de resposta medido com ping e traceroute
 - Pacotes OSPF observados
-
+---
+## Verificar
+```bash
+sudo vtysh
+show ip rip status
+```
 ---
 # 📁 Estrutura do repoistório
 ---
