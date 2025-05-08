@@ -131,14 +131,14 @@ ip -s link show enp0s3
 ---
 # 🧪 Testes realizados
 ---
-# - Interface entre R1 e R2 foi desligada
-# - Reconvergência foi observada pelo novo caminho via R4
-# - Tempo de resposta medido com ping e traceroute
-# - Pacotes RIP observados com debug
+- Interface entre R1 e R2 foi desligada
+- Reconvergência foi observada pelo novo caminho via R4
+- Tempo de resposta medido com ping e traceroute
+- Pacotes RIP observados com debug
 
-# ------------------------------------------
+---
 # 📁 Estrutura do repoistório
-# ------------------------------------------
+---
 # Routing-lab/
 # ├── cenario1_ospf.md
 # ├── cenario2_rip.md  ← (este arquivo)
