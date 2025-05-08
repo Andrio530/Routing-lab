@@ -36,7 +36,7 @@ Ambiente de laboratório voltado à prática de roteamento em Linux com múltipl
 ### ⚙️ Instalação, Configuração e Topologia
 
 - [📥 Instalação do FRRouting (FRR)](./frr-instalation.md)
-- [🧱 Topologia](./docs/ascii_topologies.md)
+- [🧱 Topologia](./Topologia.md)
 ---
 
 ## 🧠 Tecnologias Utilizadas / Technologies Used
