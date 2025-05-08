@@ -161,12 +161,12 @@ ip -s link
 - Pacotes OSPF observados
 
 ---
-## 📁 Estrutura do repoistório
+# 📁 Estrutura do repoistório
 ---
-#Routing-lab/
-#├── cenario1_ospf.md ← (este arquivo)
-#├── cenario2_rip.md 
-#├── topologia.md
-#└── frr-instalation.md
+# Routing-lab/
+# ├── cenario1_ospf.md ← (este arquivo)
+# ├── cenario2_rip.md 
+# ├── frr-instalation.md
+# └── topologia.md
 
 
