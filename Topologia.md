@@ -15,4 +15,4 @@ Essa estrutura possibilita a análise de rotas alternativas e reconvergência em
 
 ## 📷 Topologia Visual
 
-![Topologia da Rede](./topologia.png)
+![Topologia da Rede](./topologia.svg)
