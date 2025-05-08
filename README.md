@@ -33,11 +33,10 @@ Ambiente de laboratório voltado à prática de roteamento em Linux com múltipl
 - [🌐 Cenário 1 – OSPF com FRRouting (Dinâmico)](./cenario1_ospf.md)
 - [📡 Cenário 2 – RIP com FRRouting (Dinâmico)](./docs/scenario_04_frr_ospf.md)
 
-### ⚙️ Instalações e Configuração / Installations & Setup
+### ⚙️ Instalação, Configuração e Topologia
 
 - [📥 Instalação do FRRouting (FRR)](./frr-instalation.md)
-- [🔧 Instalação de Ferramentas de Diagnóstico](./docs/tools_installation.md)
-- [🧱 Topologias ASCII](./docs/ascii_topologies.md)
+- [🧱 Topologia](./docs/ascii_topologies.md)
 ---
 
 ## 🧠 Tecnologias Utilizadas / Technologies Used
@@ -51,7 +50,7 @@ Ambiente de laboratório voltado à prática de roteamento em Linux com múltipl
 
 ## ✅ Pré-requisitos
 
-- Ubuntu Server (em VM ou bare metal)
+- Ubuntu Server (em VM)
 - Pelo menos 2 NICs (virtuais ou físicas)
 - VirtualBox, Proxmox ou similar
 - Terminal com acesso sudo (ex: MobaXterm ou SSH)
