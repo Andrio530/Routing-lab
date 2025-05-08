@@ -20,18 +20,17 @@
 Ambiente de laboratório voltado à prática de roteamento em Linux com múltiplos cenários reais, configurando OSPF e RIP.
 ---
 
-## 📁 Estrutura do Projeto / Project Structure
+## 📁 Estrutura do Projeto
 
-/advanced-linux-routing-lab/ │ ├── 📄 README.md │ ├── 📁 docs/ │ ├── 📄 scenario_01_static_routing.md │ ├── 📄 scenario_02_policy_routing.md │ ├── 📄 scenario_03_nat_gateway.md │ ├── 📄 scenario_04_frr_ospf.md │ ├── 📄 frr_installation.md │ ├── 📄 tools_installation.md │ ├── 📄 netplan_basics.md │ └── 📄 ascii_topologies.md │ ├── 📁 scripts/ │ ├── 📄 static_routing.sh │ ├── 📄 policy_routing.sh │ ├── 📄 nat_config.sh │ ├── 📄 frr_startup.sh │ └── 📄 README.md
-
+/routing-lab/ │ ├── 📄 README.md │ ├── 📄 cenario1_ospf.md │ ├── 📄 cenario2_rip.md │ ├── 📄 frr-instalation.md │ ├── 📄 Topologia.md │
 ---
 
-## 📚 Índice de Conteúdo / Content Index
+## 📚 Índice de Conteúdo 
 
-### ▶️ Documentação dos Cenários / Lab Scenarios
+### ▶️ Documentação dos Cenários
 
 - [🌐 Cenário 1 – OSPF com FRRouting (Dinâmico)](./cenario1_ospf.md)
-- [📡 Cenário 2 – RIP com FRRouting (Dinâmico)](./docs/scenario_04_frr_ospf.md)
+- [📡 Cenário 2 – RIP com FRRouting (Dinâmico)](./cenario2_rip.md)
 
 ### ⚙️ Instalação, Configuração e Topologia
 
