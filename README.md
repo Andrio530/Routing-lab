@@ -22,7 +22,7 @@ Ambiente de laboratório voltado à prática de roteamento em Linux com múltipl
 
 ## 📁 Estrutura do Projeto
 
-/routing-lab/ │ ├── 📄 README.md │ ├── 📄 cenario1_ospf.md │ ├── 📄 cenario2_rip.md │ ├── 📄 frr-instalation.md │ ├── 📄 Topologia.md │
+/routing-lab/ │ ├── 📄 README.md │ ├── 📄 cenario1_ospf.md │ ├── 📄 cenario2_rip.md │  ├── 📄 vm.md │ ├── 📄 frr-instalation.md │ ├── 📄 Topologia.md │
 ---
 
 ## 📚 Índice de Conteúdo 
@@ -65,4 +65,3 @@ Desenvolvido e documentado por <a href="https://github.com/Andrio530"><strong>@A
 
 **Observação:**  
 Este guia facilita a replicação do laboratório de roteamento em VirtualBox, tornando o repositório mais completo e reaproveitável para aulas e testes práticos.
-::contentReference[oaicite:16]{index=16}
