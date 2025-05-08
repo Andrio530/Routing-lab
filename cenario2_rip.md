@@ -40,6 +40,7 @@ interface enp0s8
 router rip
  network 10.0.12.0/24
  network 10.0.14.0/24
+version 2
 exit
 write
 exit
@@ -63,6 +64,7 @@ router rip
  network 10.0.12.0/24
  network 10.0.23.0/24
  network 10.0.24.0/24
+version 2
 exit
 write
 exit
@@ -77,6 +79,7 @@ interface enp0s3
  no shutdown
 router rip
  network 10.0.23.0/24
+version 2
 exit
 write
 exit
@@ -95,6 +98,7 @@ interface enp0s8
 router rip
  network 10.0.14.0/24
  network 10.0.24.0/24
+version 2
 exit
 write
 exit
