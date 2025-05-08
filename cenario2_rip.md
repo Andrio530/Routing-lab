@@ -142,4 +142,5 @@ ip -s link show enp0s3
 # Routing-lab/
 # ├── cenario1_ospf.md
 # ├── cenario2_rip.md  ← (este arquivo)
-# └── topologia.png
+# ├── frr-instalation.md
+# └── topologia.md
