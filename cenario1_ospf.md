@@ -113,8 +113,25 @@ systemctl restart frr
 ```
 ---
 
-📘 Próximo passo sugerido
+📘 Testar Conexão
+Utilize o ping para verificar se há comunicação:
+```bash
+ping 10.0.X.X
+```
+---
+📘 Simulação de Queda
+Em um roteador visualize as interfaces com a tabela dos ips de comunicação:
+```bash
+watch -n 1 ip route
+```
+Em outro roteador derrube uma das interfaces de comunicação e verifique a tabela:
+```bash
+sudo ip link set enp0sX down
+```
+Reconecte o link e meça o tempo até a conexão voltar :
+```bash
+sudo ip link set enp0sX up
+```
 
-* Adicionar mais roteadores e áreas OSPF
 
 * Simular queda de interface e failover
