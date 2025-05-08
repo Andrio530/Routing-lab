@@ -3,35 +3,35 @@
 
   <!-- R1 -->
   <circle id="R1" cx="100" cy="50" r="20" fill="#88CCEE" stroke="#666" stroke-width="2"/>
-  <text x="100" y="55" font-family="Arial" font-size="12" fill="#FFFFFF" text-anchor="middle">R1</text>
+  <text x="100" y="55" font-family="Arial" font-size="12" fill="#000" text-anchor="middle">R1</text>
   
   <!-- R2 -->
   <circle id="R2" cx="100" cy="150" r="20" fill="#88CCEE" stroke="#666" stroke-width="2"/>
-  <text x="100" y="155" font-family="Arial" font-size="12" fill="#FFFFFF" text-anchor="middle">R2</text>
+  <text x="100" y="155" font-family="Arial" font-size="12" fill="#000" text-anchor="middle">R2</text>
   
   <!-- R3 -->
   <circle id="R3" cx="100" cy="250" r="20" fill="#88CCEE" stroke="#666" stroke-width="2"/>
-  <text x="100" y="255" font-family="Arial" font-size="12" fill="#FFFFFF" text-anchor="middle">R3</text>
+  <text x="100" y="255" font-family="Arial" font-size="12" fill="#000" text-anchor="middle">R3</text>
   
   <!-- R4 -->
   <circle id="R4" cx="300" cy="150" r="20" fill="#88CCEE" stroke="#666" stroke-width="2"/>
-  <text x="300" y="155" font-family="Arial" font-size="12" fill="#FFFFFF" text-anchor="middle">R4</text>
+  <text x="300" y="155" font-family="Arial" font-size="12" fill="#000" text-anchor="middle">R4</text>
 
   <!-- Links -->
   <!-- R1 <-> R2 -->
   <line x1="100" y1="70" x2="100" y2="130" stroke="#333" stroke-width="2"/>
-  <text x="80" y="100" font-family="Arial" font-size="10" fill="#FFFFFF">10.0.12.0/24</text>
+  <text x="80" y="100" font-family="Arial" font-size="10" fill="#000">10.0.12.0/24</text>
 
   <!-- R2 <-> R3 -->
   <line x1="100" y1="170" x2="100" y2="230" stroke="#333" stroke-width="2"/>
-  <text x="80" y="200" font-family="Arial" font-size="10" fill="#FFFFFF">10.0.23.0/24</text>
+  <text x="80" y="200" font-family="Arial" font-size="10" fill="#000">10.0.23.0/24</text>
 
   <!-- R1 <-> R4 -->
   <line x1="120" y1="50" x2="280" y2="150" stroke="#333" stroke-width="2"/>
-  <text x="200" y="80" font-family="Arial" font-size="10" fill="#FFFFFF">10.0.14.0/24</text>
+  <text x="200" y="80" font-family="Arial" font-size="10" fill="#000">10.0.14.0/24</text>
 
   <!-- R2 <-> R4 -->
   <line x1="120" y1="150" x2="280" y2="150" stroke="#333" stroke-width="2"/>
-  <text x="200" y="140" font-family="Arial" font-size="10" fill="#FFFFFF">10.0.24.0/24</text>
+  <text x="200" y="140" font-family="Arial" font-size="10" fill="#000">10.0.24.0/24</text>
 
 </svg>
