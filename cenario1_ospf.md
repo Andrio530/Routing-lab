@@ -163,10 +163,10 @@ ip -s link
 ---
 ## 📁 Estrutura do repoistório
 ---
-Routing-lab/
-├── cenario1_ospf.md ← (este arquivo)
-├── cenario2_rip.md 
-├── topologia.md
-└── frr-instalation.md
+#Routing-lab/
+#├── cenario1_ospf.md ← (este arquivo)
+#├── cenario2_rip.md 
+#├── topologia.md
+#└── frr-instalation.md
 
 
