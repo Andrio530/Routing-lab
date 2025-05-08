@@ -30,7 +30,7 @@ Ambiente de laboratório voltado à prática de roteamento em Linux com múltipl
 
 ### ▶️ Documentação dos Cenários / Lab Scenarios
 
-- [🌐 Cenário 1 – OSPF com FRRouting (Dinâmico)](./docs/scenario_03_nat_gateway.md)
+- [🌐 Cenário 1 – OSPF com FRRouting (Dinâmico)](./cenario1_ospf.md)
 - [📡 Cenário 2 – RIP com FRRouting (Dinâmico)](./docs/scenario_04_frr_ospf.md)
 
 ### ⚙️ Instalações e Configuração / Installations & Setup
