@@ -153,5 +153,19 @@ Verificar a quantidade de pacotes e o tamanho por interface:
 ip -s link
 ```
 ---
+# 🧪 Testes realizados
+---
+# - Interface entre R1 e R2 foi desligada
+# - Reconvergência foi observada pelo novo caminho via R4
+# - Tempo de resposta medido com ping e traceroute
+# - Pacotes OSPF observados
+
+# ------------------------------------------
+# 📁 Estrutura do repoistório
+# ------------------------------------------
+# Routing-lab/
+# ├── cenario1_ospf.md ← (este arquivo)
+# ├── cenario2_rip.md 
+# └── topologia.png
 
 
