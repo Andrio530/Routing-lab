@@ -93,6 +93,13 @@ network 10.0.24.0/24 area 0
 end
 !
 ```
+Habilitar ipv4.forward
+Para cada roteador habilitar o ipv4.forward
+```bash
+!
+sudo sysctl net.ipv4.ip_forward=1
+!
+```
 
 ## 🔍 Verificações úteis para tabelas de roteamento e conexões vizinhas:
 ```bash
