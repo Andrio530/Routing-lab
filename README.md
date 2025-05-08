@@ -38,25 +38,14 @@ Ambiente de laboratório voltado à prática de roteamento em Linux com múltipl
 - [📥 Instalação do FRRouting (FRR)](./frr-instalation.md)
 - [🔧 Instalação de Ferramentas de Diagnóstico](./docs/tools_installation.md)
 - [🧱 Topologias ASCII](./docs/ascii_topologies.md)
-
-### 🖥️ Scripts de Execução / Execution Scripts
-
-- [`static_routing.sh`](./scripts/static_routing.sh) – Roteamento Estático
-- [`policy_routing.sh`](./scripts/policy_routing.sh) – PBR (Policy-Based Routing)
-- [`nat_config.sh`](./scripts/nat_config.sh) – NAT Gateway
-- [`frr_startup.sh`](./scripts/frr_startup.sh) – Inicialização OSPF (FRR)
-
 ---
 
 ## 🧠 Tecnologias Utilizadas / Technologies Used
 
 | Tecnologia         | Finalidade / Purpose                           |
 |--------------------|--------------------------------------------------|
-| `iproute2`          | Gerenciar rotas, regras e tabelas de roteamento |
-| `iptables`          | NAT, redirecionamento e segurança de pacotes    |
 | `FRRouting (FRR)`   | Protocolos dinâmicos: OSPF, BGP, RIP, etc.       |
-| `Netplan`           | Configuração de IP estático no Ubuntu Server     |
-| `iperf3`, `tcpdump` | Testes de tráfego e análise de pacotes           |
+| `traceroute`, `tcpdump` | Testes de tráfego e análise de pacotes           |
 
 ---
 
@@ -69,18 +58,8 @@ Ambiente de laboratório voltado à prática de roteamento em Linux com múltipl
 
 ---
 
-## 🧩 Próximos Desafios / Next Steps
-
-- Simular HA com múltiplos gateways
-- Integrar firewall UFW com regras por interface
-- Adicionar controle de banda por QoS (`tc`, `htb`)
-- Monitorar rotas com Zabbix ou Prometheus
-
----
-
 ## 🧑‍💻 Autor / Author
 
 <p align="center">
 Desenvolvido e documentado por <a href="https://github.com/Emersoft76"><strong>@Emersoft76</strong></a><br/>
-<em>Administrador de Redes com foco em ambientes Linux, roteamento e soluções modernas baseadas em nuvem e segurança.</em>
 </p>
