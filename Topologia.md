@@ -14,6 +14,9 @@ A topologia da rede foi projetada com **quatro roteadores** conectados em um for
 Essa estrutura possibilita a análise de rotas alternativas e reconvergência em caso de falha de link. O teste de protocolos de roteamento como OSPF e RIP foi conduzido com foco na capacidade de convergência e performance frente a falhas simuladas.
 
 ## 📷 Topologia Visual
-<img src="https://raw.githubusercontent.com/Andrio530/Routing-lab/main/topologia.svg?sanitize=true" alt="Topologia da Rede"/>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Andrio530/Routing-lab/main/topologia.svg?sanitize=true"
+       alt="Topologia da Rede" width="600"/>
+</p>
 
 
