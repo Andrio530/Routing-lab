@@ -6,7 +6,7 @@
 <p align="center">
   <a href="https://ubuntu.com/server"><img src="https://img.shields.io/badge/Linux-Ubuntu--Server-2c3e50?style=for-the-badge&logo=ubuntu&logoColor=white"/></a>
   <a href="https://netfilter.org/"><img src="https://img.shields.io/badge/iptables-NAT%20%26%20Firewall-red?style=for-the-badge"/></a>
-  <a href="https://www.frrouting.org/"><img src="https://img.shields.io/badge/FRRouting-OSPF%2FBGP-green?style=for-the-badge"/></a>
+  <a href="https://www.frrouting.org/"><img src="https://img.shields.io/badge/FRRouting-OSPF%2RIP-green?style=for-the-badge"/></a>
   <a href="https://www.virtualbox.org/"><img src="https://img.shields.io/badge/VirtualBox-Network%20Emulator-orange?style=for-the-badge"/></a>
 </p>
 <p align="center">
@@ -59,5 +59,5 @@ Ambiente de laboratório voltado à prática de roteamento em Linux com múltipl
 ## 🧑‍💻 Autor / Author
 
 <p align="center">
-Desenvolvido e documentado por <a href="https://github.com/Emersoft76"><strong>@Emersoft76</strong></a><br/>
+Desenvolvido e documentado por <a href="https://github.com/Andrio530"><strong>@Andrio530</strong></a><br/>
 </p>
