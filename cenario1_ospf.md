@@ -113,14 +113,12 @@ systemctl restart frr
 ```
 ---
 
-## ▶️ Métricas de desempenho
-#📘 Testar Conexão
+## ▶️ Tempo de convergência (Simulação de queda)
 Utilize o ping para verificar se há comunicação:
 ```bash
 ping 10.0.X.X
 ```
 ---
-📘 Simulação de Queda
 Em um roteador visualize as interfaces com a tabela dos ips de comunicação:
 ```bash
 watch -n 1 ip route
@@ -134,5 +132,19 @@ Reconecte o link e meça o tempo até a conexão voltar :
 sudo ip link set enp0sX up
 ```
 
+## ▶️ Tamanho da tabela de roteamento
+Verifique a tabela de roteamento:
+```bash
+ip route
+```
+---
+Contabilize a quantidade de linhas que aparecem na tabela.
 
-* Simular queda de interface e failover
+## ▶️ Delay
+Verificar o tempo de entrega do pacote:
+```bash
+traceroute 10.0.X.X
+```
+---
+O comando retorna os hops e o delay.
+
