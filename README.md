@@ -34,6 +34,7 @@ Ambiente de laboratório voltado à prática de roteamento em Linux com múltipl
 
 ### ⚙️ Instalação, Configuração e Topologia
 
+- [📥 Instalação da VM (VirtualBox)](./vm.md)
 - [📥 Instalação do FRRouting (FRR)](./frr-instalation.md)
 - [🧱 Topologia](./Topologia.md)
 ---
